@@ -1,0 +1,190 @@
+.bienvenida{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#acacac;
+    font-size:30px;
+    line-height:180%;
+
+}
+
+.quelenguaje{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#dfdfdf;
+    font-size:20px;
+}
+
+.definiciones{
+    font-family:'Courier New', Courier, monospace;
+    font-size:15px;
+    color:#dfdfdf;
+    text-align:justify;
+}
+
+.textoanimado{
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 4px solid;
+    width: 80%;
+    top:30%;
+    overflow: hidden;
+    color:#acacac;
+    font-size:30px;
+    line-height:180%;
+    white-space:nowrap;
+
+    animation: typing 4s steps(30),
+    blink .5s infinite step-end alternate;
+}
+
+.textotecnologias{
+    color:#acacac;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+}
+
+@keyframes typing{
+    from { width: 0 }
+}
+
+
+@keyframes blink{
+    50% { border-color: transparent }
+}
+
+.registrate{
+    color:#8d8c8c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    top:40%;
+    position:absolute;
+    left:9%;
+    width:80%;
+}
+
+.crearcuenta{
+    color:#8d8c8c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    top:80%;
+    position:absolute;
+    left:9%;
+    width:80%;
+}
+
+.iniciarregistrar{
+    color:#8d8c8c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    position:absolute;
+}
+
+.descripciondexanda{
+    color:#8d8c8c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    position:absolute;
+    top:40%;
+    left:10%;
+    width:80%;
+}
+
+.textoanimadotecnologia{
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 4px solid;
+    width: 7%;
+    overflow: hidden;
+    color:#acacac;
+    font-size:15px;
+    line-height:180%;
+    white-space:nowrap;
+    position:absolute;
+
+    animation: typing 2s steps(30),
+    blink .5s infinite step-end alternate;
+}
+
+.descripcionestecnologias{
+    color:#8d8c8c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    position:absolute;
+    width:40%;
+}
+
+.textodebienvenida{
+    color:#8d8c8c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    position:absolute;
+}
+
+.usuarioingresado{
+    color:#323232;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    width:80%;
+}
+
+.usuariadatos{
+    color:#323232;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    width:100%;
+}
+
+.usuariodescripcion{
+    color:#272727;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+}
+
+/*XandA social*/
+.textodebienvenidasocial{
+    color:#e5e4e4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    position:absolute;
+}
+
+
+/*XandA instlacion*/
+.bienvenidainstalacion{
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 4px solid;
+    width: 69ch;
+    overflow: hidden;
+    color:#dddddd;
+    font-size:20px;
+    line-height:180%;
+    white-space:nowrap;
+    position:absolute;
+
+    animation: typing 3s steps(30),
+    blink .5s infinite step-end alternate;
+}
+
+.textodeinstalacion{
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 4px solid;
+    width: 69ch;
+    overflow: hidden;
+    color:#dddddd;
+    font-size:20px;
+    line-height:180%;
+    white-space:nowrap;
+    position:absolute;
+
+    animation: typing2 3s steps(30),
+    blinkt .5s infinite step-end alternate; 
+}
+
+@keyframes typing2{
+    from { width: 0 }
+}
+
+
+@keyframes blinkt{
+    50% { border-color: transparent }
+}

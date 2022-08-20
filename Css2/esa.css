@@ -1,0 +1,56 @@
+.textoanimacion{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.container {
+    width: 800;
+    height: 700;
+}
+
+.imgRedonda {
+    border-radius: 150px;
+    width:50;
+    height:50;
+}
+.body {
+    background:#3b6b75;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.alicia {
+    color: #ffffff;
+    font-family: cursive;
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: #6a9e73;
+    border-radius: 10px;
+    float: left;
+    text-align: left;
+    display: block;
+}
+
+.me {
+    color: #ffffff;
+    font-family: cursive;
+    width: 55%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: #878c88;
+    border-radius: 10px;
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.textodelabarranegrainferior{
+    color:#ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15;
+}

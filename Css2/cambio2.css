@@ -1,0 +1,31 @@
+
+.slider{
+    width: 1000px;/*tamano del bloque donde ocurre la animacion*/
+    height: 450px;
+    overflow: hidden;
+  }
+  .slider ul{
+      animation: cambio 10s infinite alternate linear;
+      width: 20px;
+  }
+  .slider li{
+      width: 300px; /*separacion entre imagenes*/
+      list-style: none;
+  }
+
+  @keyframes cambio{
+      0%{margin-left: 0;}
+      20%{margin-left: 0;}
+      
+      25%{margin-left: -50%;}
+      25%{margin-left: -50%;}
+      
+      50%{margin-left: -100%;}
+      70%{margin-left: -100%;}
+      
+      75%{margin-left: -150%;}
+      100%{margin-left: -150%;}
+  
+  }
+  
+  

@@ -1,0 +1,29 @@
+.divboton2{
+    background: #228cbd;
+    font-size:20px;
+    border-radius: 30px;
+    border-width: none;
+}/*Aquí es para el fondo azul donde aparecen las vistas de la base de datos*/
+
+.doscolor{
+    font-family:sans-serif;
+    font-size:18px;
+    color:#ffffff;
+}/*Aquí es el estilo de los datos que se imprimen de la consulta a la base de datos*/
+
+.divsubtitulos{
+    background:#69d0a3;
+    border-radius:40px;
+    border-width:none;
+}/*Aquí es para el fondo verde donde aparecen los subtitulos de la base de datos*/
+
+.borde{
+    border-radius: 50px;
+}
+
+.textosdelossubtitulos{
+    color:#ffffff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:18px;
+}
+

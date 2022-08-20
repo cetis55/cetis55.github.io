@@ -1,0 +1,85 @@
+.opcionesdeense{
+    background:#2e2b2b;
+    width:20%;
+    height:45%;
+    position:absolute;
+    box-shadow:5px 5px 8px rgb(14, 13, 13);
+}
+
+.imagenes_opciones{
+    position:absolute;
+    width:60%;
+    left:20%;
+}
+
+.barra_superior{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:15%;
+    background:#373333;
+}
+
+.barra_opciones{
+    position:absolute;
+    top:20%;
+    left:2.5%;
+    width:25%;
+    height:75%;
+    background:#373333;
+    box-shadow: #2e2b2b;
+}
+
+.fondo_opcion{
+    position:absolute;
+    top:25%;
+    left:50%;
+    width:30%;
+    opacity:20%;
+}
+
+.buscador_boton{
+    border-radius: 30px;
+    background:#d1d1d1;
+    position:absolute;
+    left:72%;
+    top:30%;
+    height:40%;
+    width:5%;
+    border:none;
+    cursor: pointer;
+}
+
+.imagen_lenguaje{
+    top:5%;
+    left:30%;
+    width:40%;
+    position:absolute;
+}
+
+.opcion_superiror{
+    position:absolute;
+    top:5%;
+    left:2%;
+    width:6.5%;
+    opacity: 50%;
+}
+
+.campo_codigo{
+    position:absolute;
+    top:20%;
+    left:35%;
+    width:58%;
+    height:75%;
+    background:#373333;
+}
+
+.decorado_codigo{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:7%;
+    background:#0a0a0a;
+}

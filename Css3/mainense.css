@@ -1,0 +1,40 @@
+.cuerpo{
+    background:#5c3296;
+    top:0px;
+    left:0px;
+    background: linear-gradient(45deg, #a473e9,#6c3eac,#462a6e,#2e194b);
+    animation: colores 10s ease infinite;
+    background-size: 400% 400%;
+}
+
+.cuerpo_programacion{
+    background:#121111;
+    top:0%;
+    left:0%;
+    background: linear-gradient(45deg, #121111,#1d1c1c,#272626,#121111);
+    animation: colores 10s ease infinite;
+    background-size: 400% 400%;
+
+}
+
+@keyframes colores{
+    0%{background-position: 0% 50%;
+    }
+    50%{background-position: 100% 50%;
+    }
+    100%{background-position: 0% 50%;
+    }
+}
+
+.permanentesiados{
+    top:0px;
+    left:0px;
+    width:100%;
+    height:15%;
+    text-align: center;
+    border-radius:30px;
+    position:fixed;
+    background: linear-gradient(45deg, #a473e9,#6c3eac,#462a6e,#2e194b);
+    animation: colores 10s ease infinite;
+    background-size: 400% 400%;
+}

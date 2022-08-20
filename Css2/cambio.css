@@ -1,0 +1,34 @@
+
+.slider{
+  width: 110px;/*tamano del bloque donde ocurre la animacion*/
+  height: 600px;
+  overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 10s infinite alternate linear;
+    width: 20px;
+}
+.slider li{
+    width: 120px; /*separacion entre imagenes*/
+    list-style: none;
+}
+.slider img{
+    width: 120px;/*Tamaño de ancho de la imagen*/
+    height: 120px;/*Tamaño de alto de la imagen*/
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -220%;}
+    70%{margin-left: -220%;}
+    
+    75%{margin-left: -340%;}
+    100%{margin-left: -340%;}
+
+}
+

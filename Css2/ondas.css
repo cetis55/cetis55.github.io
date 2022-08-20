@@ -1,0 +1,64 @@
+.wave{
+    width:1200px;
+    height:200px;
+    position:absolute;
+    top:330px;
+    left:0px;
+    background-image: url(../img/olas.png);
+    background-position:absolute;
+}
+
+.wave2{
+    width:1200px;
+    height:200px;
+    position:absolute;
+    top:330px;
+    left:400px;
+    background-image: url(../img/olas.png);
+    background-position:absolute;
+}
+
+.wave3{
+    width:1200px;
+    height:200px;
+    position:absolute;
+    top:330px;
+    left:670px;
+    background-image: url(../img/olas.png);
+    background-position:absolute;
+}
+
+.container_cover{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    background-image: url(../img/background-cover.svg);
+    background-size:cover;
+    background-position:bottom;
+}
+
+
+.w1{
+    animation: w1 5s linear infinite;
+}
+.w2{
+    animation: w2 5s linear infinite;
+}
+.w3{
+    animation: w3 5s linear infinite;
+}
+
+@keyframes w1{
+    40%{margin-left: 400;}
+} 
+
+
+@keyframes w2{
+    60%{margin-left: -400;}
+} 
+@keyframes w3{
+    40%{margin-left: -800;}
+} 

@@ -1,0 +1,82 @@
+.texto_opciones{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:17px;
+    position:absolute;
+    left:35%;
+    top:75%;
+    color:#ffffff;
+    white-space:nowrap;
+    line-height:180%;
+    width: 12ch;
+    overflow: hidden;
+    border-right: 4px solid;
+    display:block;
+
+
+
+    animation: typing2 3s steps(30),
+    blinkt .5s infinite step-end alternate; 
+}
+
+@keyframes typing2{
+    from { width: 0 }
+}
+
+
+@keyframes blinkt{
+    50% { border-color: transparent }
+}
+
+
+.datos_opciones{
+    font-family:'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-size: 20px;
+    position: absolute;
+    left:30%;
+}
+
+.buscador{
+    border-radius: 30px;
+    background:#d1d1d1;
+    position:absolute;
+    left:10%;
+    top:30%;
+    height:40%;
+    width:60%;
+    border:none;
+}
+
+.cuenta_boton{
+    background:none;
+    position:absolute;
+    left:80%;
+    top:30%;
+    height:40%;
+    width:10%;
+    border:none;
+    color:#ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+.lennguaje_seleccionado{
+    position:absolute;
+    left:2%;
+    top:-15%;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.codigo{
+    position:absolute;
+    left:6.5%;
+    top:7%;
+    width:93%;
+    height:92%;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    background: none;
+    border:none;
+}
